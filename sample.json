@@ -1,34 +1,22 @@
 {
-  "title": "Web Application SLO",
-  "targets": [
-    {
-      "expr": "sum(rate(http_requests_total[1m]))",
-      "legendFormat": "Request rate",
-      "intervalFactor": 2,
-      "refId": "A"
+    "firstName": "John",
+    "lastName": "Doe",
+    "age": 35,
+    "address": {
+        "streetAddress": "21 2nd Street",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10021"
     },
-    {
-      "expr": "sum(rate(http_request_duration_seconds_count[1m]))",
-      "legendFormat": "Request duration count",
-      "intervalFactor": 2,
-      "refId": "B"
-    },
-    {
-      "expr": "sum(rate(http_request_duration_seconds_sum[1m]))",
-      "legendFormat": "Request duration sum",
-      "intervalFactor": 2,
-      "refId": "C"
-    }
-  ],
-  "thresholds": [
-    {
-      "value": 0.01,
-      "color": "red"
-    }
-  ],
-  "type": "singlestat",
-  "valueName": "current",
-  "prefix": "Error budget: ",
-  "postfix": "%",
-  "format": "percent"
+    "phoneNumbers": [
+        {
+            "type": "home",
+            "number": "212 555-1234"
+        },
+        {
+            "type": "fax",
+            "number": "646 555-4567"
+        }
+    ],
+    "email": "johndoe@example.com"
 }
