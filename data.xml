@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+  <book>
+    <title>The Great Gatsby</title>
+    <author>F. Scott Fitzgerald</author>
+    <publisher>Charles Scribner's Sons</publisher>
+    <year>1925</year>
+    <isbn>978-0743273565</isbn>
+  </book>
+  <book>
+    <title>The Catcher in the Rye</title>
+    <author>J.D. Salinger</author>
+    <publisher>Little, Brown and Company</publisher>
+    <year>1951</year>
+    <isbn>978-0316769488</isbn>
+  </book>
+</library>
